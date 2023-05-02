@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$fontFamily: 'Montserrat', sans-serif;
+$fontWeight: (
+  'normal': 400,
+  'medium': 500,
+  'semibold': 600,
+  'bold': 700
+);
+
+*{
+  font-family: $fontFamily;
+}
+
+body{
+  background-image: url('../assets/familia-feliz-con-lote.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
